@@ -1,0 +1,45 @@
+{
+  "displayName": "PaymentComponent",
+  "defaultWidth": 160,
+  "defaultHeight": 24,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "text",
+      "displayName": "Text",
+      "type": "text",
+      "default": "Happy Hacking"
+    },
+    {
+      "name": "color",
+      "displayName": "Color",
+      "type": "color",
+      "default": "#00A898"
+    },
+    {
+      "name": "apiKey",
+      "displayName": "ApiKey",
+      "type": "text",
+      "default": "pk_test_51Jrsw9FCebwI82Hfh4n0yOvHISf3f1wqREIYpAR1MD6LSVh39mF1h10djsCHQWZfK1xglWS5vSPeTeHvKWBOZ9DY00ubk5MTJT"
+    },
+    {
+      "name": "customer",
+      "displayName": "Customer",
+      "type": "text",
+      "default": "cus_Ka1p4hzdfxsEqG"
+    },
+    {
+      "name": "paymentURL",
+      "displayName": "PaymentURL",
+      "type": "text",
+      "default": "http://10.0.2.2:3000/create-payment-intent"
+    },
+    {
+      "name": "applicationFeeAmount",
+      "displayName": "ApplicationFeeAmount",
+      "type": "number",
+      "default": 0
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "paymentcomponent",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "author": "",
+  "scripts": {
+    "start": "adalo dev",
+    "login": "adalo login",
+    "publish": "adalo publish"
+  },
+  "adalo": {
+    "logo": "./example-logo.png",
+    "displayName": "PaymentComponent",
+    "components": [
+      {
+        "name": "PaymentComponent",
+        "manifest": "./src/components/PaymentComponent/manifest.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@adalo/cli": "^0.0.43",
+    "react": "^16.9.0",
+    "react-art": "^16.6.0",
+    "react-dom": "^16.9.0",
+    "react-native-web": "^0.9.5"
+  },
+  "dependencies": {
+    "@stripe/stripe-react-native": "^0.2.3",
+    "react-native-bouncy-checkbox": "^2.1.7"
+  }
+}
